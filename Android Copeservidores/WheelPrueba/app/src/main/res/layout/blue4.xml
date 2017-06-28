@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/roundedcorners"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:alpha="0.6" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+            <TextView
+                android:textStyle="bold"
+                android:text="CS Vacacional"
+                android:textSize="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:id="@+id/titulox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="70dp"/>
+
+            <!-- Numero 1-->
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beneficios"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="70dp"/>
+            <!---viñeta 1-->
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="355dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot"
+                >
+
+            </TextView>
+            <TextView
+                android:text="Rebajos por planilla o bien por SINPE."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="30dp"
+                android:layout_marginTop="345dp"
+                android:layout_marginLeft="90dp"/>
+
+
+            <!-- Titulo 2-->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Requisitos"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="410dp"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Certificación de ingresos."
+                android:textSize="30dp"
+                android:layout_marginTop="475dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="485dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <!--viñetas 2 -->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cédula al día."
+                android:textSize="30dp"
+                android:layout_marginTop="505dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="515dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orden patronal vigente."
+                android:textSize="30dp"
+                android:layout_marginTop="535dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="545dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Firma de contrato."
+                android:textSize="30dp"
+                android:layout_marginTop="565dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="575dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Condiciones"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="630dp"
+                android:layout_marginLeft="70dp"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monto específico a ahorrar"
+                android:textSize="30dp"
+                android:layout_marginTop="695dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="705dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monto máximo: sin definir"
+                android:textSize="30dp"
+                android:layout_marginTop="725dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="735dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monto mínimo: 2000 colones o su equivalente en dólares."
+                android:textSize="30dp"
+                android:layout_marginTop="755dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="765dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Se aceptarán únicamente en los primeros tres meses del período establecido cuando el plazo sea a 12meses."
+                android:textSize="30dp"
+                android:layout_marginTop="820dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="830dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plazo en meses: 3, 6, 12 meses."
+                android:textSize="30dp"
+                android:layout_marginTop="920dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="930dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Space
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|bottom"
+        android:id="@+id/space2" />
+
+    <Button
+        android:background="@drawable/btn_atras_ax"
+        android:id="@+id/backpop9"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="right|bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right|bottom" />
+
+</FrameLayout>

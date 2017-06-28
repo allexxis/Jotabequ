@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/roundedcorners"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:alpha="0.6" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+            <TextView
+                android:textStyle="bold"
+                android:text="Educación"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:id="@+id/titulox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="70dp"/>
+
+            <!-- Numero 1-->
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beneficios"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="185dp"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="260dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot"
+                >
+
+            </TextView>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plazos amplios."
+                android:textSize="30dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="90dp"/>
+            <!---viñeta 1-->
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="290dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Taza de interés competitiva."
+
+                android:textSize="30dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="90dp"/>
+
+
+
+            <!-- Titulo 2-->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Requisitos"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="345dp"
+                android:layout_marginLeft="70dp"/>
+            <!--viñetas 2 -->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cédula al día."
+
+                android:textSize="30dp"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="430dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orden patronal vigente."
+
+                android:textSize="30dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="460dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Título de Bachillerato de Secundaria o Bachillerato Universitario."
+
+                android:textSize="30dp"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="490dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Constancia de salario con un máximo de 40 días de emitida."
+                android:textSize="30dp"
+                android:layout_marginTop="545dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="555dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan de estudios de la universidad o centro de estudios."
+            android:textSize="30dp"
+            android:layout_marginTop="610dp"
+            android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="620dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Factura proforma del costo total de la carrera, incluyendo gastos de graduación."
+                android:textSize="30dp"
+                android:layout_marginTop="675dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="685dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cualquier otro documento que la Cooperativa requiera."
+                android:textSize="30dp"
+                android:layout_marginTop="740dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="750dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Condiciones"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="860dp"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Título aplica según grado académico para el cual requiere el crédito."
+                android:textSize="30dp"
+                android:layout_marginTop="925dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="935dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Del segundo desembolso del crédito en adelante, el estudiante deberá presentar las notas aprobadas del bloque anterior, entre otras condiciones."
+                android:textSize="30dp"
+                android:layout_marginTop="990dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="1000dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Space
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|bottom"
+        android:id="@+id/space2" />
+
+    <Button
+        android:background="@drawable/btn_atras_vx"
+        android:id="@+id/backpop9"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="right|bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right|bottom" />
+</FrameLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/roundedcorners"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:alpha="0.6" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+            <TextView
+                android:textStyle="bold"
+                android:text="Eco Crédito"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:id="@+id/titulox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="70dp"/>
+
+            <!-- Numero 1-->
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beneficios"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="355dp"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="435dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot"
+                >
+
+            </TextView>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plazos amplios."
+                android:textSize="30dp"
+                android:layout_marginTop="425dp"
+                android:layout_marginLeft="90dp"/>
+            <!---viñeta 1-->
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="465dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Taza de interés competitiva."
+
+                android:textSize="30dp"
+                android:layout_marginTop="455dp"
+                android:layout_marginLeft="90dp"/>
+
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="495dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rebajos por plantilla o bien por SINPE."
+
+                android:textSize="30dp"
+                android:layout_marginTop="485dp"
+                android:layout_marginLeft="90dp"/>
+
+            <!-- Titulo 2-->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Requisitos"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="550dp"
+                android:layout_marginLeft="70dp"/>
+            <!--viñetas 2 -->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cédula al día."
+
+                android:textSize="30dp"
+                android:layout_marginTop="615dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="625dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orden patronal vigente."
+
+                android:textSize="30dp"
+                android:layout_marginTop="645dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="655dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Certificación de ingresos."
+
+            android:textSize="30dp"
+            android:layout_marginTop="675dp"
+            android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="685dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Planos de la ubicación del lote."
+
+                android:textSize="30dp"
+                android:layout_marginTop="705dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="715dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Condiciones"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="770dp"
+                android:layout_marginLeft="70dp"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monto máximo: sin definir."
+
+                android:textSize="30dp"
+                android:layout_marginTop="835dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="845dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plazo máximo 145 meses."
+
+                android:textSize="30dp"
+                android:layout_marginTop="865dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="875dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Space
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|bottom"
+        android:id="@+id/space2" />
+
+    <Button
+        android:background="@drawable/btn_atras_vx"
+        android:id="@+id/backpop9"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="right|bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right|bottom" />
+</FrameLayout>

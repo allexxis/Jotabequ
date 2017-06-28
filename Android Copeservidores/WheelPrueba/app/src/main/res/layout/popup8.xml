@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:background="@drawable/roundedcorners"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:alpha="0.6" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Vehículo"
+                android:layout_marginLeft="70dp"
+                />
+
+
+
+            <!-- Numero 2-->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accesorios"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="85dp"
+                android:layout_marginLeft="70dp"/>
+            <Button
+                android:id="@+id/linea1"
+                android:background="@android:color/transparent"
+                android:layout_width="400dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="85dp"
+                />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compra De Vehículo Nuevo"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="70dp"/>
+            <Button
+                android:id="@+id/linea2"
+                android:background="@android:color/transparent"
+                android:layout_width="400dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="125dp"
+                />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="140dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot">
+
+            </TextView>
+
+
+            <!-- Numero 3-->
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mantemiento"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginLeft="70dp"/>
+            <Button
+                android:id="@+id/linea3"
+                android:background="@android:color/transparent"
+                android:layout_width="400dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="165dp"
+                />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="180dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot">
+
+            </TextView>
+
+
+            <!-- Numero 4-->
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reparación"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="205dp"
+                android:layout_marginLeft="70dp"/>
+            <Button
+                android:id="@+id/linea4"
+                android:background="@android:color/transparent"
+                android:layout_width="400dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="205dp"
+                />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="220dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot">
+
+            </TextView>
+
+            <!-- Numero 5-->
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

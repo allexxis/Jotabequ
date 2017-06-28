@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/roundedcorners"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:alpha="0.6" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Más información y preguntas"
+
+            android:textSize="22dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/correo"
+
+            />
+        <EditText
+            android:hint="ejemplo@mail.com             ..."
+
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/txt_correo"
+            android:layout_marginTop="75dp"
+            android:maxLines="1"
+           />
+
+
+
+        <!-- Numero 1-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número Telefónico"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/telefono"
+            android:maxLines="1"
+
+            />
+        <EditText
+            android:hint="00-00-00-00                  ..."
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/txt_telefono1"
+            android:layout_marginTop="140dp"
+            />
+        <TextView
+            android:text="Escriba un breve texto de la información que desdea solicitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/informacion"
+
+            />
+        <EditText
+
+            android:hint="                                                     ..."
+
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_info"
+            android:layout_marginTop="205dp" />
+
+        <Button
+            android:background="@drawable/btn_atras_vx"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:id="@+id/attras_mail"
+            android:layout_alignBottom="@+id/space1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="250dp"
+            android:layout_marginLeft="360dp"/>
+
+        <Button
+            android:background="@drawable/btn_enviar_vx"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/enviar_mail"
+            android:layout_alignBottom="@+id/space1"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="510dp"/>
+
+        <Space
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/space1" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

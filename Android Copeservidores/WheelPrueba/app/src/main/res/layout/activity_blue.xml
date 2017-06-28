@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/back2"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative1">
+
+
+    <com.lukedeighton.wheelview.WheelView
+
+        android:id="@+id/wheelview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emptyItemColor="#fb34"
+        app:wheelColor="#f452"
+        app:rotatableWheelDrawable="false"
+        app:selectionAngle="360.0"
+        app:selectionPadding="10dp"
+        app:repeatItems="true"
+        app:wheelRadius="380dp"
+        app:wheelItemCount="10"
+        app:wheelPadding="30dp"
+        app:wheelItemRadius="50dp"
+        app:wheelOffsetX="-600dp"
+        app:selectionColor="#0967b9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="138.54dp"
+        android:layout_height="42.24dp"
+        android:id="@+id/btn_credito"
+        android:background="@drawable/btn_creditox"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"></Button>
+    <android.support.design.widget.FloatingActionButton
+        app:fabSize="auto"
+
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:src="@android:drawable/ic_dialog_email"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentEnd="true" />
+    <!--
+            app:wheelPosition="bottom"
+                    app:wheelOffsetY="60dp"
+
+        app:wheelItemTransformer="com.lukedeighton.wheelview.transformer.SimpleItemTransformer"
+          app:selectionColor="#07C5CC"
+
+
+    -->
+
+</RelativeLayout>

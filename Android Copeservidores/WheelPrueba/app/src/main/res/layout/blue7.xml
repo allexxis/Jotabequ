@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/roundedcorners"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:alpha="0.6" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+            <TextView
+                android:textStyle="bold"
+                android:text="CS Serviahorro    "
+                android:textSize="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:id="@+id/titulox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+
+                android:textSize="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="70dp"/>
+
+            <!-- Numero 1-->
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beneficios"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="70dp"/>
+            <!---viñeta 1-->
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="365dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot"
+                >
+
+            </TextView>
+            <TextView
+                android:text="Un retiro parcial al año hasta por el 50% del saldo total acumulado."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="30dp"
+                android:layout_marginTop="355dp"
+                android:layout_marginLeft="90dp"/>
+
+            <!-- Titulo 2-->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Requisitos"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="70dp"/>
+            <!--viñetas 2 -->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cédula al día."
+                android:textSize="30dp"
+                android:layout_marginTop="525dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="535dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orden patronal vigente."
+                android:textSize="30dp"
+                android:layout_marginTop="555dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="565dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Firma de contrato."
+                android:textSize="30dp"
+                android:layout_marginTop="585dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="595dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Condiciones"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="70dp"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monto específico a ahorrar"
+                android:textSize="30dp"
+                android:layout_marginTop="715dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="725dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monto máximo: sin definir"
+                android:textSize="30dp"
+                android:layout_marginTop="745dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="755dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En caso de cancelación o retiro no se aplican penalizaciones."
+                android:textSize="30dp"
+                android:layout_marginTop="775dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="785dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No aceptarán aportes extraordinarios"
+                android:textSize="30dp"
+                android:layout_marginTop="840dp"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:text=""
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="850dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot1"/>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Space
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|bottom"
+        android:id="@+id/space2" />
+
+    <Button
+        android:background="@drawable/btn_atras_ax"
+        android:id="@+id/backpop9"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="right|bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right|bottom" />
+
+</FrameLayout>
